@@ -11,5 +11,6 @@ public class Conversion {
         } else if (givenYear % 100 == 0 || givenYear % 400 != 0) {
             System.out.println("Year " + givenYear + " is not leap year!");
         }
+        scan.close();
     }
 }
